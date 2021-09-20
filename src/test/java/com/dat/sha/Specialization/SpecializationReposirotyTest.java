@@ -38,6 +38,7 @@ public class SpecializationReposirotyTest {
 		assertNotNull(spec.getId(), "Spec is not created");
 	}
 
+	
 	@Test
 	@Order(2)
 	public void testSpecall() {
