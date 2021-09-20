@@ -31,7 +31,7 @@ public class SpecializationReposirotyTest {
 	 */
 
 	@Test
-	@Disabled
+	//@Disabled
 	public void testSpecCreate() {
 		Specialization spec = new Specialization(null, "CRDL", "Cardiologists", "Expert in heart and blood vessesl");
 		spec = repo.save(spec);
